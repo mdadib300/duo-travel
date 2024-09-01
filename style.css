@@ -7,12 +7,30 @@
     color: white;
     font-weight: 800;
 }
+
+.primary-text{
+    color: #FF5400;
+}
+
+
 /* body */
 body{
-    padding: 0 120px;
+    /* padding: 0 120px; */
     font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
 }
+
+/* DuoTravel branding */
+.branding-style{
+    display: flex;
+    align-items: center;
+}
+
+.branding-img{
+    margin-right: 15px;
+    height: 50px;
+}
+/* navbar */
+
 /* popular-tours */
 .popular-tours{
     display: flex;
@@ -22,4 +40,49 @@ body{
 
 .popular-tours-text{
     width: 575px;
+}
+
+.popular-tours-img{
+    width: 100%;
+}
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 110px 0;
+    background-color: rgba(72, 72, 83, 0.05);
+}
+
+.footer-icons{
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+/* MOBILE PHONE RESPONSIVE */
+@media screen and (max-width: 767px){
+/* body */
+body{
+    padding: 0 20px;
+}
+/* popular-tours */
+.popular-tours{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-tours-text{
+    width: 330px;
+    margin-bottom: 20px;
+}
 }
