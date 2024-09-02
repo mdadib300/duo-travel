@@ -1,3 +1,4 @@
+
 /* common styles */
 .primary-button{
     padding: 15px 35px;
@@ -37,7 +38,7 @@ body{
 .banner{
     background-image: url("/Images/banner-bg.png");
     background-repeat: no-repeat;
-    margin: 0 100px;
+    margin: 50px 100px;
     color: aliceblue;
     text-align: center;
     padding: 150px 250px;
@@ -62,16 +63,59 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 100px;
+    margin: 50px 100px;
 }
 
 .popular-tours-text{
     width: 575px;
 }
 
-/* .popular-tours-img{
-    width: 500px; 
-} */
+/* choose your destination */
+.destination{
+    margin: 50px 110px;
+}
+
+.desti-texts{
+    text-align: center;
+}
+
+.desti-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.desti-flex img{
+    margin: 10px;
+}
+
+/* why choose us */
+.choose{
+    margin: 50px 110px;
+}
+
+.choose-texts{
+    text-align: center;
+}
+
+.choose-boxes{
+    margin-top: 30px;
+}
+
+.choose-boxes-single-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.choose-box{
+    background-color:  rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(72, 72, 83, 0.05);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    width: 550px;
+
+}
 
 /* footer */
 footer{
@@ -94,70 +138,136 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MOBILE PHONE RESPONSIVE */
 @media screen and (max-width: 767px){
-/* body */
-body{
-    padding: 0 5px;
+    /* body */
+    body{
+        padding: 0 5px;
+    }
+    
+    /* banner */
+    .banner{
+        background-image: url("/Images/banner-bg.png");
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        margin: 0 5px;
+        color: aliceblue;
+        text-align: center;
+        padding: 10px 20px;
+    }
+    
+    .banner h1{
+        margin-bottom: 0px;
+    }
+    
+    .banner p{
+        margin-bottom: 0px;
+    }
+    
+    .banner-input{
+        width: 150px;
+        border: none;
+        border-radius: 8px;
+        padding: 15px;
+        margin: 10px;
+    }
+    
+    /* popular-tours */
+    .popular-tours{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .popular-tours-text{
+        width: 330px;
+        margin-bottom: 20px;
+    }
+    }
+    
+    .popular-tours-img{
+        width: 300px; 
+    }
+    
+    
+    /* choose your destination */
+    .destination{
+        margin: 20px 10px;
+    }
+    
+    .desti-texts{
+        text-align: center;
+    }
+    
+    /************************** SHOULD BE FIXED ******************************/
+    /* .desti-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } */
+    /************************** SHOULD BE FIXED ******************************/
+
+    
+    .desti-flex img{
+        margin: 10px;
+    }
+
+
+    /* why choose us
+.choose{
+    margin: 5px 10px;
 }
 
-/* banner */
-.banner{
-    background-image: url("/Images/banner-bg.png");
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    margin: 0 5px;
-    color: aliceblue;
-    text-align: center;
-    padding: 10px 20px;
-}
-
-.banner h1{
-    margin-bottom: 0px;
-}
-
-.banner p{
-    margin-bottom: 0px;
-}
-
-.banner-input{
-    width: 150px;
-    border: none;
-    border-radius: 8px;
-    padding: 15px;
-    margin: 10px;
-}
-
-/* popular-tours */
-.popular-tours{
+.choose-boxes-single-flex{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
-.popular-tours-text{
-    width: 330px;
-    margin-bottom: 20px;
-}
-}
+.choose-box{
+    background-color:  rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(72, 72, 83, 0.05);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    width: 320px;
 
-.popular-tours-img{
-    width: 300px; 
-}
-
-
-/* footer */
-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-    background-color: rgba(72, 72, 83, 0.05);
-}
-
-.footer-icons{
-    margin-top: 10px;
-}
+} */
+    
+    
+    /* footer */
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        background-color: rgba(72, 72, 83, 0.05);
+    }
+    
+    .footer-icons{
+        margin-top: 10px;
+    }
